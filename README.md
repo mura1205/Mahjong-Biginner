@@ -1,1 +1,1 @@
-# Mahjong-Biginner
+# mura1205.github.io
