@@ -1,0 +1,303 @@
+body{
+    margin:auto;
+}
+header{
+    height: 100px;
+    width:100%;
+    background-color :rgba(34, 49, 52, 0.9) ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    margin-left:0;
+}
+.header-left{
+    float:left;
+}
+.logo{
+    width:180px;
+    margin:0 0 40px 40px;
+}
+    
+
+.header-right{
+    float: right;
+    margin:0 20px;
+}
+.header-right img{
+    border-radius: 5px;
+}
+.header-right img:hover{
+    opacity: 0.7;
+}
+
+/*souzu1の設定です*/
+.souzu1{
+    float:left;
+}
+.souzu1 .fukidashi1{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu1 .fukidashi1:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: -110px;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu1:hover .fukidashi1 {
+    display: block;
+}
+
+/*souzu2の設定です*/
+.souzu2{
+    float:left;
+}
+.souzu2 .fukidashi2{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu2 .fukidashi2:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: -45px;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu2:hover .fukidashi2 {
+    display: block;
+}
+
+/*souzu3の設定です*/
+.souzu3{
+    float:left;
+}
+.souzu3 .fukidashi3{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu3 .fukidashi3:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: 0;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu3:hover .fukidashi3 {
+    display: block;
+}
+
+/*souzu4の設定です*/
+.souzu4{
+    float:left;
+}
+.souzu4 .fukidashi4{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu4 .fukidashi4:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: 60px;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu4:hover .fukidashi4 {
+    display: block;
+}
+
+/*souzu5の設定です*/
+.souzu5{
+    float:left;
+}
+.souzu5 .fukidashi5{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu5 .fukidashi5:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: 150px;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu5:hover .fukidashi5 {
+    display: block;
+}
+
+/*souzu6の設定です*/
+.souzu6{
+    float:left;
+}
+.souzu6 .fukidashi6{
+    display:none;
+    width: 310px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 16px;
+    border-radius: 5px;
+    background:seagreen;
+    color: white;
+    font-family:serif;
+    font-weight: bold;
+}
+.souzu6 .fukidashi6:after {
+    position:absolute;
+    width:0;
+    height:0;
+    top: -20px;
+    margin-left: 180px;
+    border: solid transparent;
+    border-color: rgba(51, 204, 153, 0);
+    border-bottom-color: seagreen;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+.souzu6:hover .fukidashi6 {
+    display: block;
+}
+
+.souzu{
+    width:40px;
+    margin :20px 10px;
+    display: inline-block;
+}
+
+.title{
+    position:relative;
+    
+}
+.mahjong-image{
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+.catchphrase{
+    color:rgb(255, 255, 255);
+    font-family: serif;
+    font-size: 55px;
+    position: absolute;
+    top:10%;
+    left:50%;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(34,49,52);
+}
+.title .menu{
+    background-color:rgba(34, 49, 52,0.7);
+    height: 200px;
+    width: 800px;
+    position:absolute;
+    top:60%;
+    left:1%;
+    border-radius: 10px;
+}
+.mahjong-hai{
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+    padding:0 5px;
+    left:1%;
+    top:7%;
+    position:absolute;
+}
+.mahjong-hai img{
+    float:left;
+    width:130px;
+}
+.mahjong-hai img:hover{
+    opacity: 0.7;
+}
+
+footer{
+    height: 200px;
+    width:98%;
+    bottom: 0;
+    margin:5px auto;
+    border:10px double;
+    border-color: rgba(101, 123, 128, 0.9);
+    border-radius: 5px;
+}
+.footer-logo {
+    width:100px;
+    margin:30px 10px 40px 40px;
+}
